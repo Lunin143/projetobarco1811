@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.box_topo {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #21272B;
+    border-bottom: 2px solid #ccc;
+}
+
+.box_menuEsquerdo {
+    display: flex;
+    align-items: center;
+}
+
+.box_menuEsquerdo img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.box_menuEsquerdo h1 {
+    font-size: 20px;
+    color: #fafafa;
+    line-height: 1.2;
+}
+
+.box_menuEsquerdo h1 span {
+    color: cyan;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.box_menuDireito ul {
+    display: flex; 
+    padding: 0;
+    margin: 0;
+}
+
+.box_menuDireito ul li {
+    margin: 0 5px;
+    list-style: none;
+}
+
+.box_menuDireito ul li a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #fafafa;        /* Cor padrão */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transição suave */
+}
+
+.box_menuDireito ul li a:hover {
+    color: cyan; /* Muda a cor ao passar o mouse */
+    text-decoration: none; /* Garante que o sublinhado não volte */
+}
+
+
+
+
+/*------------------------------------------------------------------------*/
+
+.box_meio img {
+    width: 100%;
+    display: inline-block;
+}
+
+.box_background {
+    
+    position: absolute; /* ou 'fixed', dependendo do comportamento desejado */
+    bottom: 20px; /* Alinha ao fundo com margem de 20px */
+    left: 800px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo escuro com opacidade */
+    color: white; /* Texto em branco para contraste */
+    padding: 20px; /* Espaço interno */
+    text-align:left; /* Centraliza o texto */
+    z-index: 100; /* Garante que a caixa fique sobre o fundo */
+    max-width: 100%;
+}
+}
+.box_textoTelefone {
+    color: #fafafa;
+    text-align: center;
+    padding: 20px;
+}
+
+.box_textoTelefone img {
+    display: flex;
+    margin: 15px 0;
+    width: 25px;
+}
+
+.box_textoTelefone .telefone {
+    font-weight: bold;
+}
+
+
+
+/*------------------------------------------------------------------------*/
+
+
+
+.box_baixo {
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 25px;
+    
+}
+
+.box_imgDestinos img {
+    width: 100%;
+    margin-top: 20px;
+    
+    height: 230px;
+}
+
+.box_nossaFrota {
+    
+
+}
+
+.box_imgNossaFrota {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.box_imgNossaFrota img {
+    width: 100%;
+    height: auto;
+}
+
+.box_destinos {
+    
+}
+
+.box_tituloNossaFrota {
+    
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    gap: 10px;
+}
+
+.box_tituloDestinos {
+   
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    gap: 10px;
+}
+
+
